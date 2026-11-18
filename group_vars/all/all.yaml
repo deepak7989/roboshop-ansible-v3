@@ -2,8 +2,8 @@ MONGODB_HOST: mongodb-{{ env }}.deep90s.online
 REDIS_HOST: redis-{{ env }}.deep90s.online
 MYSQL_HOST: mysql-{{ env }}.deep90s.online
 RABBITMQ_HOST: rabbitmq-{{ env }}.deep90s.online
-CATALOGUE_HOST: catalogue-{{ env }}.deep90s.online
-USER_HOST: user-{{ env }}.deep90s.online 
-CART_HOST: cart-{{ env }}.deep90s.online
-SHIPPING_HOST: shipping-{{ env }}.deep90s.online
-PAYMENT_HOST: payment-{{ env }}.deep90s.online
+CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.deep90s.online
+USER_HOST: user.backend-alb-{{ env }}.deep90s.online 
+CART_HOST: cart.backend-alb-{{ env }}.deep90s.online
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.deep90s.online
+PAYMENT_HOST: payment.backend-alb-{{ env }}.deep90s.online
